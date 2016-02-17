@@ -46,7 +46,7 @@ import com.google.common.collect.ImmutableList;
  * 
  * @author Steven G. Brown
  */
-class FileSearch {
+//class FileSearch {
 
   /**
    * The search result.
