@@ -49,7 +49,7 @@ public final class FilesFoundEnvironmentContributor extends
     buildEnvironmentFor(r, envs);
   }
 
-  private void buildEnvironmentFor(Run<?, ?> run, EnvVars envVars) {
+//  private void buildEnvironmentFor(Run<?, ?> run, EnvVars envVars) {
     FilesFoundTriggerCause cause = run.getCause(FilesFoundTriggerCause.class);
     if (cause != null) {
       envVars.put(name("node"), cause.getNode());
