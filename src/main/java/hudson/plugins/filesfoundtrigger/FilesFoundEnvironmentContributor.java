@@ -44,7 +44,7 @@ public final class FilesFoundEnvironmentContributor extends
    * {@inheritDoc}
    */
   @Override
-  public void buildEnvironmentFor(@SuppressWarnings("rawtypes") Run r,
+//  public void buildEnvironmentFor(@SuppressWarnings("rawtypes") Run r,
       EnvVars envs, TaskListener listener) {
     buildEnvironmentFor(r, envs);
   }
