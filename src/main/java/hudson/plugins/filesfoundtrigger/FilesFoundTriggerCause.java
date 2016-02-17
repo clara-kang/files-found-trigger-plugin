@@ -44,7 +44,7 @@ public final class FilesFoundTriggerCause extends Cause {
    * The slave node on which to look for files, or {@code null} if the master
    * will be used.
    */
-  //private final String node;
+  private final String node;
 
   /**
    * The base directory that was used when locating files.
